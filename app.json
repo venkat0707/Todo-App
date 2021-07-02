@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ToDo",
+    "slug": "todo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/flame.png",
+    "splash": {
+      "image": "./assets/flame.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/flame.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.todo",
+      versionCode:1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
